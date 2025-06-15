@@ -64,7 +64,7 @@ Formula used: Capital Gains = Sale Price - Purchase Price - Expenses
 
 ### 4. Tax Calculation
 - Tax is calculated using: Tax = (Net Capital Gains × Applicable Tax Rate) / 100
-
+_ _ _
 
 ## 🛠️ Functionalities Implemented
 
