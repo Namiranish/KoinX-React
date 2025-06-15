@@ -1,12 +1,47 @@
-# React + Vite
+# 📊 KoinX - Crypto Tax Calculator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+KoinX is a crypto tax calculator that helps users find out their capital gains and the amount of tax they need to pay based on their crypto transactions in Australia.  
+Users just need to enter the purchase price, sale price, expenses, investment type (short or long term), and annual income — and the tool will do the math.
 
-Currently, two official plugins are available:
+---
+## 📸 Preview of the App
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Here's how the KoinX Crypto Tax Calculator looks:
 
-## Expanding the ESLint configuration
+![App Screenshot](./public/photo.png)
+___
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+## 🔗 Live Demo
+
+👉 [KoinX Live Demo](https://koin-x-react.vercel.app/)
+
+---
+
+## 🚀 Features
+
+- **Dynamic Tax Rate** — Changes based on selected annual income.
+- **Capital Gains Calculation** — Calculates gains using purchase, sale price, and expenses.
+- **Investment Type (Short/Long Term)** — Applies long-term discount if applicable.
+- **Tax Estimation** — Calculates tax based on net gains and income bracket.
+- **Responsive Design** — Clean UI using Tailwind CSS.
+
+---
+
+## 🛠 Tech Stack
+
+- **React** – JavaScript library for UI and logic
+- **Tailwind CSS** – Utility-first CSS framework
+- **React Icons** – For using icons like dropdowns, arrows, etc.
+- **JavaScript (ES6+)** – To handle logic and calculations
+
+---
+
+## 📈 How It Works
+
+### 1. Select Annual Income
+- Choose your income range from dropdown.
+- The tax rate will update based on the selected range.
+
+### 2. Calculate Capital Gains
+Formula used:
