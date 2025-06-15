@@ -44,4 +44,23 @@ ___
 - The tax rate will update based on the selected range.
 
 ### 2. Calculate Capital Gains
-Formula used:
+Formula used: Capital Gains = Sale Price - Purchase Price - Expenses
+
+### 3. Choose Investment Type
+- **Short Term**: Full capital gains are considered for tax.
+- **Long Term**: 
+  - If gains are positive, 50% discount is applied.
+  - Net Capital Gains = Capital Gains - 50% of Capital Gains
+
+### 4. Tax Calculation
+- Tax is calculated using: Tax = (Net Capital Gains × Applicable Tax Rate) / 100
+
+## 📚 What I Learned
+
+- Working with dynamic form inputs in React
+- Using conditional rendering based on user choices
+- Managing multiple states and updates
+- Applying real-world tax calculation logic
+- Using Tailwind CSS for a responsive UI without custom CSS
+
+---
