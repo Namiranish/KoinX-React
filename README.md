@@ -28,6 +28,16 @@ ___
 
 ---
 
+## 🧠 Overview of the Task
+
+The goal of the project was to build a single-page tax calculator that:
+- Converts Figma UI into working React components.
+- Accepts user input for purchase, sale, and expense values.
+- Calculates short-term and long-term capital gains.
+- Applies the appropriate Australian income tax slab.
+- Displays the capital gain, discount, and tax owed clearly.
+
+---
 ## 🛠 Tech Stack
 
 - **React** – JavaScript library for UI and logic
@@ -55,12 +65,45 @@ Formula used: Capital Gains = Sale Price - Purchase Price - Expenses
 ### 4. Tax Calculation
 - Tax is calculated using: Tax = (Net Capital Gains × Applicable Tax Rate) / 100
 
-## 📚 What I Learned
 
-- Working with dynamic form inputs in React
-- Using conditional rendering based on user choices
-- Managing multiple states and updates
-- Applying real-world tax calculation logic
-- Using Tailwind CSS for a responsive UI without custom CSS
+## 🛠️ Functionalities Implemented
+
+- ✅ Purchase, Sale, and Expense inputs
+- ✅ Short-Term vs Long-Term toggle
+- ✅ Income-based tax slab selection
+- ✅ Tax auto-calculation based on user data
+- ✅ Clean UI with Tailwind for fast responsiveness
+- ✅ Dropdown component for flexible options
+- ✅ Read-only output fields for final tax breakdown
+- ✅ Fully responsive for mobile and desktop screens
 
 ---
+
+## 📦 Extra Packages/Libraries Used
+
+| Package       | Purpose                         |
+|---------------|----------------------------------|
+| `react-icons` | Icons (optional enhancement)     |
+| `tailwindcss` | Utility-first CSS framework      |
+| `vite`        | Fast React development build     |
+
+---
+
+## 📚 Learnings from the Project
+
+- 🔁 How to convert a Figma design into reusable and responsive React components.
+- 🧮 How tax slabs and progressive tax rates work in Australia.
+- ✍️ Managing state and side-effects using `useState` and `useEffect`.
+- 🧠 Creating a user-friendly UX with dynamic conditionals.
+- 🎯 Designing scalable input forms and conditionally rendered UI sections.
+
+---
+
+## 🚀 Future Improvements
+
+- [ ] Add support for **Indian Tax Calculation**.
+- [ ] Integrate **real-time crypto price APIs** (e.g., CoinGecko).
+- [ ] Add **currency selection** (AUD, INR, USD).
+- [ ] Implement **authentication** and user dashboards.
+- [ ] Store and track **user transactions history**.
+- [ ] Mobile-first performance optimization.
