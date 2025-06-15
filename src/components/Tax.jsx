@@ -75,7 +75,8 @@ export default function Tax() {
     }
 
     return (
-        <div className='taxcard bg-white rounded-2xl p-5 flex flex-col justify-center items-center w-full max-w-4xl mx-auto'>
+        
+        <div className='taxcard bg-white rounded-2xl p-5 flex flex-col justify-center items-center w-full max-w-6xl mx-auto'>
             <div className='undertax flex flex-col justify-evenly gap-10 w-full'>
                 <h1 className='text-3xl font-bold text-center'>Free Crypto Tax Calculator Australia</h1>
                 <div className='datatax flex flex-col gap-7'>
